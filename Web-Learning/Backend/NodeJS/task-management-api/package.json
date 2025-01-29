@@ -1,9 +1,8 @@
 {
-  "name": "backend",
+  "name": "task-management-api",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -11,12 +10,8 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "axios": "^1.7.9",
-    "backend": "file:",
     "body-parser": "^1.20.3",
     "express": "^4.21.2",
-    "express-rate-limit": "^7.5.0",
-    "nodemon": "^3.1.9",
-    "socket.io-client": "^4.8.1"
+    "mongoose": "^8.9.5"
   }
 }

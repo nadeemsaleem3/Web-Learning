@@ -1,0 +1,6 @@
+[
+  {
+    "task": "Check system status",
+    "time": "*/5 * * * *"
+  }
+]
